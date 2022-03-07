@@ -17,8 +17,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:inputType="text"
         tools:ignore="MissingConstraints" />
 
@@ -27,9 +27,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Нажми на меня"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="200dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="200dp" />
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -40,22 +40,21 @@
         tools:ignore="MissingConstraints" />
 
     <Switch
-        android:id="@+id/switch13"
-        android:text="Switch"
-        android:gravity="bottom|center"
-        android:layout_height="15dp"
-        android:layout_width="20dp"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="switch"
+        android:textColor="@color/cardview_shadow_start_color"
+        android:textSize="20sp" />
 
     <ToggleButton
         android:id="@+id/toggleButton2"
-        android:text="ToggleButton"
-        android:textOff="DISABLED"
-        android:textOn="ENABLED"
-        android:layout_height="10dp"
-        android:layout_width="20dp"/>
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textOff="не работает"
+        android:textOn="работает" />
 
     <CalendarView
-        android:layout_height="350dp"
-        android:layout_width="350dp"/>
+        android:layout_width="350dp"
+        android:layout_height="350dp" />
 
 </LinearLayout>
